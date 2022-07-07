@@ -1,0 +1,11 @@
+# Avoid unintentional population of .DS_Store files in repository
+.DS_Store
+
+# Avoid accidental Figma file upload
+*.fig
+
+# Avoid accidental Sketch file upload 
+*.sketch
+
+# Avoid accidental XD file upload
+*.xd

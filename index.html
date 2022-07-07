@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Social Media Dashboard Challenge</title>
+  </head>
+  <body class="light-mode"> <!-- Leave default theme in -->
+    <!-- Navigation section -->
+    <nav>
+      <div class="nav-list">
+        <div class="nav-separator-one">
+          <span class="nav-data-one">Social Media Dashboard</span>
+          <span class="nav-data-two" id="themeToggle">Dark Mode
+            <!-- Theme switch -->
+            <label class="theme-switch">
+              <input for="themeToggle" id="toggleButton" onclick="themeToggle()" placeholder="#" type="checkbox">
+              <span class="theme-slider"></span>
+            </label>
+          </span>
+        </div>
+        <div class="nav-separator-two">
+          <span class="nav-data-three"><strong>Total Followers: 23,004</strong></span>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Follower Count Section -->
+      <section>
+        <!-- Facebook Likes Section -->
+          <div class="top-wrap-flex">
+            <div class="top-one-flex">
+              <span class="top-text"><img src="./images/icon-facebook.svg" alt="Facebook Logo"> &#64;nathanf</span>
+              <span><strong class="top-emphasis">1987</strong></span>
+              <span class="top-subheading">Followers</span>
+              <span class="top-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 12 Today</span>
+            </div>
+        <!-- Twitter Likes Section -->
+            <div class="top-two-flex">
+              <span class="top-text"><img src="./images/icon-twitter.svg" alt="Twitter Logo"> &#64;nathanf</span>
+              <span><strong class="top-emphasis">1044</strong></span>
+              <span class="top-subheading">Followers</span>
+              <span class="top-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 99 Today</span>
+            </div>
+        <!-- Instagram Followers Section -->
+            <div class="top-three-flex">
+              <span class="top-text"><img src="./images/icon-instagram.svg" alt="Instagram Logo"> &#64;realnathanf</span>
+              <span><strong class="top-emphasis">11K</strong></span>
+              <span class="top-subheading">Followers</span>
+              <span class="top-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 1099 Today</span>
+            </div>
+        <!-- Youtube Subscribers Section -->
+            <div class="top-four-flex">
+              <span class="top-text"><img src="./images/icon-youtube.svg" alt="Youtube Logo"> Nathan F&#46;</span>
+              <span><strong class="top-emphasis">8239</strong></span>
+              <span class="top-subheading">Subscribers</span>
+              <span class="top-footer-negative"><img src="./images/icon-down.svg" alt="Down Arrow"> 144 Today</span>
+            </div>
+          </div>
+      </section>
+      <!-- Middle section -->
+      <section>
+        <br>
+        <h1 class="middle-heading">Overview &#8212; Today</h1>
+        <br>
+      </section>
+      <!-- Bottom section -->
+      <section>
+        <div class="bottom-wrap-flex">
+          <!-- Facebook Page Views Section -->
+          <div class="bottom-one-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Page Views</span>
+              <img src="./images/icon-facebook.svg" alt="Facebook Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">87</strong></span>
+              <span class="bottom-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 3&#37;</span>
+            </div>
+          </div>
+          <!-- Facebook Likes Section -->
+          <div class="bottom-two-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Likes</span>
+              <img src="./images/icon-facebook.svg" alt="Facebook Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">52</strong></span>
+              <span class="bottom-footer-negative"><img src="./images/icon-down.svg" alt="Down Arrow"> 2&#37;</span>
+            </div>
+          </div>
+          <!-- Instagram Likes Section -->
+          <div class="bottom-three-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Likes</span>
+              <img src="./images/icon-instagram.svg" alt="Instagram Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">5462</strong></span>
+              <span class="bottom-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 2257&#37;</span>  
+            </div>
+          </div>
+          <!-- Instagram Views Section -->
+          <div class="bottom-four-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Profile Views</span>
+              <img src="./images/icon-instagram.svg" alt="Instagram Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">52,000</strong></span>
+              <span class="bottom-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 1375&#37;</span>  
+            </div>
+          </div>
+          <!-- Twitter Retweets Section -->
+          <div class="bottom-five-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Retweets</span>
+              <img src="./images/icon-twitter.svg" alt="Twitter Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">117</strong></span>
+              <span class="bottom-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 303&#37;</span>
+            </div>
+          </div>
+          <!-- Twitter Likes Section -->
+          <div class="bottom-six-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Likes</span>
+              <img src="./images/icon-twitter.svg" alt="Twitter Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">507</strong></span>
+              <span class="bottom-footer-positive"><img src="./images/icon-up.svg" alt="Up Arrow"> 553&#37;</span>  
+            </div>
+          </div>
+          <!-- YouTube Likes Section -->
+          <div class="bottom-seven-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Likes</span>
+              <img src="./images/icon-youtube.svg" alt="YouTube Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">107</strong></span>
+              <span class="bottom-footer-negative"><img src="./images/icon-down.svg" alt="Down Arrow"> 19&#37;</span>  
+            </div>
+          </div>
+          <!-- YouTube Views Section -->
+          <div class="bottom-eight-flex">
+            <div class="bottom-subcontainer-one">
+              <span class="bottom-text">Total Views</span>
+              <img src="./images/icon-youtube.svg" alt="YouTube Logo" class="bottom-image">
+            </div>
+            <div class="bottom-subcontainer-two">
+              <span><strong class="bottom-emphasis">1407</strong></span>
+              <span class="bottom-footer-negative"><img src="./images/icon-down.svg" alt="Down Arrow"> 12&#37;</span>  
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
