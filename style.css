@@ -49,88 +49,10 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .top-one-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
 
-    .top-two-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-
-    .top-three-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .top-four-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-
-    .bottom-one-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
-    .bottom-two-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-
-    .bottom-three-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .bottom-four-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-
-    .bottom-five-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-
-    .bottom-six-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
-
-    .bottom-seven-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 7;
-        grid-row-end: 8;
-    }
-
-    .bottom-eight-flex {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 8;
-        grid-row-end: 9;
+    .bottom-wrap-flex {
+        display: flex;
+        flex-flow: column nowrap;
     }
 }
 
@@ -140,19 +62,14 @@
     }
 
     .bottom-wrap-flex {
+        display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-}
-
-/* Adjusts html element */
-html {
-    height: 100%; /* Adjusts total height */
 }
 
 /* Adjusts body element */
 body {
     background-color: var(--bg); /* Adjusts background color */
-    height: 100%; /* Adjusts element height */
 }
 
 /* Adjusts navigation list */
@@ -374,7 +291,6 @@ input:checked + .theme-slider:before {
 }
 
 .bottom-wrap-flex {
-    display: grid;
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Adjusts font type */
     gap: 3em;
     height: auto;
